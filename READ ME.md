@@ -21,32 +21,51 @@ Dalam proses pembayaran terdapat kolom Total yang didapatkan dari hasil perhitun
 ![Flowchart](https://masvay.com/wp-content/uploads/2023/09/Kasir.png)
 ### D. Test Case
 Hasil beberapa fitur yang dicoba dalam program kasir ini.
+
 ##### 1. Add Item
 Ketika proses menambahkan barang (Add Item) user hanya perlu memasukkan id belanja, nama barang(Str), jumlah(int), dan harga barang(int).
+
 ![Proses penambahan barang](https://masvay.com/wp-content/uploads/2023/09/proses-tambah.png)
+
 Proses penambahan barang
+
 ![hasil tambah](https://masvay.com/wp-content/uploads/2023/09/hasil-penambahan.png)
+
 Tampilan ketika barang sudah dimasukkan ke dalam keranjang.
 
 ##### 2. Update Item (Nama, Jumlah, dan Harga)
 Fitur ubah nama barang, jumlah, dan harga (update item) dijadikan dalam satu proses. Jadi user akan memasukan semua perubahan dalam satu proses yang sama.
+
 ![proses ubah](https://masvay.com/wp-content/uploads/2023/09/proses-ubah.png)
+
 Proses perubahan pada item belanja
+
 ##### 3. Delete Item
 Fitur Delete item memungkinkan user untuk menghapus item. User tinggal memasukkan id belanja. Program akan membaca id tersebut dan kemudian menghapusnya.
+
 ![prose hapus](https://masvay.com/wp-content/uploads/2023/09/proses-hapus.png)
+
 Proses Delete Item
+
 ![hasil hapus](https://masvay.com/wp-content/uploads/2023/09/hasil-hapus.png)
+
 Tampilan setelah hapus salah satu item.
+
 ##### 4. Reset Transaction
 Fitur reset transaction merupakan pengaturan untuk membuat semua list dalam keadaan kosong. Hal ini berguna karena transaksi sebelumnya tidak akan dieksekusi lagi.
+
 ![reset](https://masvay.com/wp-content/uploads/2023/09/reset-transaksi.png)
+
 ##### 5. Pemesanan Yang Sesuai
 Sebelum proses bayar, user perlu memastikan barang yang dibeli sesuai dengan yang diharapkan. Termasuk jumlah dan harga yang sesuai dengan yang tertera.
+
 ![pesana](https://masvay.com/wp-content/uploads/2023/09/hasil-penambahan.png)
+
 ##### 6. Proses Pembayaran
 Perhitungan pembayaran akan langsung menampilkan total transaksi user. Selain itu, program akan menampilkan besarnya diskon atau potongan jika user berbelanja dalam nominal tertentu. Informasi juga dilengkapi dengan harga setelah diskon dan besarnya uang kembalian.
+
 ![pembayaran](https://masvay.com/wp-content/uploads/2023/09/hasil-bayar.png)
+
 ### E. Kesimpulan
 Program kasir ini masih sangat sederhana. Hanya menyediakan fitur-fitur dasar yang biasa dilakukan ketika berbelanja. Oleh sebab itu, program ini masih memungkinkan untuk terus dikembangkan sesuai dengan kebutuhan user. Beberapa fitur yang bisa dikembangakn antara lain adalah:
 1. Penggunaan database untuk menampung setiap data traksaksi.
